@@ -1,0 +1,5 @@
+print("wellcome to know your body mass")
+weight = float(input("enter your weight:\n"))
+height = float(input("enter your height:\n"))
+body_mass = int(weight/(height**2))
+print(body_mass)
